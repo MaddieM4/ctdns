@@ -1,0 +1,16 @@
+{
+    "content": {
+        "subdomains": {
+        },
+        "domains": {
+        }
+    },
+    "permissions":{
+        "read": {
+            "*": true
+        },
+        "write": {
+            "\\"philiphorger\\"": true
+        }
+    }
+}

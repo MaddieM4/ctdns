@@ -1,0 +1,21 @@
+{
+    "content": {
+        "subdomains": {
+            "ct": "\\"philiphorger\\"\\u0000ctdomain"
+        },
+        "domains": {
+            "orchard": [
+                ["A",    "76.105.229.241"]
+                ["AAAA", "fcd4:1dc1:cc08:c97d:85e2:6cad:eab8:864"]
+            ]
+        }
+    },
+    "permissions":{
+        "read": {
+            "*": true
+        },
+        "write": {
+            "\\"philiphorger\\"": true
+        }
+    }
+}
