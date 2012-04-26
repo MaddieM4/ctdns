@@ -61,7 +61,9 @@ Not only that, but you get to cache a lot. And I mean, a LOT. In the early versi
 big to be practical anymore except for intentionally participating servers, when you want to resolve (say)
 "brickwindows.ff.ct", you will download and store the entire table of top level domains, the entire table of .ct
 domains, and the entire table of .ff.ct domains. But once you have that stuff, you can just keep it up to date quite
-passively, and not have to do any sort of DNS query at all to the internet to resolve *.ff.ct or *.ct domains.
+passively, and not have to do any sort of DNS query at all to the internet to resolve *.ff.ct or *.ct domains. If
+you've noticed that this completely prepares you for the censorship apocalypse scenario where the government blocks
+or DDoS's every single source of domain information, you get a jammy dodger.
 
 The secret is that ctdns sets up as an MCP node for the internet at large (P2P, distributed protocol over UDP and
 other transports), and as a DNS server on localhost. So you configure your computer to use itself as a nameserver,
